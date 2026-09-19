@@ -1,0 +1,41 @@
+.video {
+    width: 600px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.thumbnail-container {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.video-info {
+    flex: 1;
+}
+
+.video-info p {
+    font-family: Arial;
+    margin-top: 0;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.channel {
+    color: rgb(100, 100, 100);
+    margin-bottom: 5px;
+}
+
+.stats {
+    color: rgb(100, 100, 100);
+}
