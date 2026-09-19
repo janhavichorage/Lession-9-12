@@ -1,0 +1,17 @@
+.box {
+    width: 350px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.box p {
+    font-family: Arial;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+button {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}

@@ -1,0 +1,21 @@
+.music-box {
+    width: 400px;
+    background-color: rgb(35, 35, 35);
+    padding: 15px;
+    font-family: Arial;
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: rgb(180, 180, 180);
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 0;
+}
