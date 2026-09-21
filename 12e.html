@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .flex-12e {
+      display: flex;              /* main flex container */
+      gap: 40px;                  /* spacing between menu items */
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+    }
+    .menu-item {
+      display: flex;              /* flex inside each item */
+      align-items: center;        /* vertical center alignment */
+      gap: 8px;                   /* space between text and count */
+      font-weight: bold;
+    }
+    .count {
+      background-color: red;
+      color: white;
+      font-weight: bold;
+      border-radius: 50%;         /* circular badge */
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;        /* vertical center */
+      justify-content: center;    /* horizontal center */
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-12e">
+    <div class="menu-item">
+      <span>Home</span>
+      <span class="count">14</span>
+    </div>
+    <div class="menu-item">
+      <span>Notifications</span>
+      <span class="count">3</span>
+    </div>
+    <div class="menu-item">
+      <span>Messages</span>
+      <span class="count">5</span>
+    </div>
+  </div>
+</body>
+</html>
