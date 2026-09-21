@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .grid-11b {
+      display: grid;
+      grid-template-columns: 50px 1fr 75px; 
+      gap: 10px; 
+      font-family: Arial, sans-serif;
+    }
+    .box {
+      background-color: lightgreen;
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-11b">
+    <div class="box">50px</div>
+    <div class="box">Flexible space</div>
+    <div class="box">75px</div>
+  </div>
+</body>
+</html>
